@@ -1,1 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+#title {
+    font-weight: bold;
+    font-size: calc(3rem + 0.5vw);
+    margin-bottom: 15px;
+}
+
+#subtitle {
+    margin-top: 15px;
+    font-size: calc(0.5rem + 1vw);
+    white-space: nowrap;
+}

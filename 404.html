@@ -1,15 +1,22 @@
 <!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
+    <title>GitMessengerBot - 404</title>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>깃메봇 - 404</title>
+    <meta content="GitMessengerBot - 404" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="깃메봇 공식 사이트" property="og:description"/>
+    <meta content="https://gitmessengerbot.xyz" property="og:url"/>
+    <meta content="https://raw.githubusercontent.com/GitMessengerBot/GitMessengerBot-Web/main/resource/drawable/banner.png"
+          property="og:image"/>
 
+    <link rel="stylesheet" href="./resource/css/main.css"/>
     <link rel="stylesheet" href="./resource/css/404.css"/>
 
     <!--[if lt IE 9]>
@@ -18,15 +25,17 @@
     <![endif]-->
 </head>
 
-<body>
-<div id="notfound">
-    <div class="notfound">
-        <div class="notfound-404">
-            <h1>Oops!</h1>
-        </div>
-        <h2 style="margin-top: 30px;">없는 페이지에요 :(</h2>
-        <a href="index.html" style="margin-top: 15px;">메인 페이지로</a>
-    </div>
+<style>
+    body {
+        overflow: hidden;
+    }
+</style>
+
+<body class="full-screen">
+<div class="center-content">
+    <p id="title">Oops!</p>
+    <p id="subtitle">없는 페이지에요 :(</p>
+    <a class="btn-shadow" href="index.html" style="margin-top: 15px;"><p class="button-text">메인 페이지로</p></a>
 </div>
 </body>
 </html>
