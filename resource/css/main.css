@@ -33,6 +33,7 @@ a[href] {
 }
 
 .center-content {
+    padding: 30px;
     margin: 0 auto;
     text-align: center;
 }

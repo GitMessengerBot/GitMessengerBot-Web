@@ -9,3 +9,40 @@
     font-size: calc(0.5rem + 1vw);
     white-space: nowrap;
 }
+
+.description {
+    padding-top: 10px;
+}
+
+.cover-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.cover.main {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 52px;
+}
+
+.cover-scroll {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
