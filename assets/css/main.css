@@ -5,11 +5,6 @@ a[href] {
     color: inherit;
 }
 
-.full-screen {
-    width: 100vw;
-    height: 100vh;
-}
-
 .btn-shadow {
     font-size: 14px;
     text-decoration: none;
@@ -21,21 +16,6 @@ a[href] {
     font-weight: 700;
     -webkit-box-shadow: 0 4px 15px -5px #942ccc;
     box-shadow: 0 4px 15px -5px #942ccc;
-}
-
-.center-container {
-    display: flex;
-    justify-items: center;
-    height: 100vh;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.center-content {
-    padding: 30px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .button-text {
