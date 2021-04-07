@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 150px;
     font-weight: 900;
-    background: url('../drawable/404.jpg') no-repeat center;
+    background: url('../images/404.jpg') no-repeat center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
